@@ -1,6 +1,4 @@
-import pytest
 from task_manager import TaskManager, TaskData
-from task import Task
 import os
 
 
