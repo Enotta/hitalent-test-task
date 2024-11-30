@@ -75,8 +75,10 @@ def main():
             results = [task for task in manager.tasks if keyword.lower() in task.title.lower()]
             for task in results:
                 print(task)
+
         elif choice == "7":
             break
+
         else:
             print("Неверный выбор.")
 

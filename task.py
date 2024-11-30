@@ -26,6 +26,8 @@ class Task:
         return f"Task(id={self.id}, title='{self.title}', status='{self.status}')"
 
     def mark_complete(self):
+        if self.status == "Выполнена":
+            print("Задача уже выполнена!")
         self.status = "Выполнена"
 
     def to_dict(self):
