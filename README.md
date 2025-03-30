@@ -7,5 +7,11 @@
 - Поиск
 - Смена статуса
 
-Перед работой с тестами убедитесь что установлен pytest: pip install --upgrade pytest
-Для запуска тестов: python -m pytest test_task_manager.py
+Перед работой с тестами убедитесь что установлен pytest: 
+```console
+pip install --upgrade pytest
+```
+Для запуска тестов: 
+```console
+python -m pytest test_task_manager.py
+```
